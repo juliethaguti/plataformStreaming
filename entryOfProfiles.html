@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/entryOfProfilesStyles.css">
+        <title>Ingreso de perfiles</title>
+    </head>
+
+    <body>
+        <header id="page-plataformStreaming" class="site-header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark family-sans text-uppercase ">
+
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="./browse.html">
+                        <i class="layout-icon fa fa-film" style="color: #ffc107;"></i>
+                        <font style="vertical-align: inherit; color: #ffc107; font-weight: 600;">
+                            CineColombia
+                        </font>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <div class="row align-items-end">
+            <div class="layout-film col modal-dialog mr-center text-start">
+                <div class="col-sm-12 main-section">
+                    <div class="modal-content">
+                        <div class="col-12 form-input">
+                            <fieldset>
+                                <legend class="text-dark py-3"> Quien usará el servicio?</legend>
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control " id="nameProfileDefault"
+                                        placeholder="Nombre de tu perfil">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="nameProfile1" placeholder="Nombre">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control " id="nameProfile2" placeholder="Nombre">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="nameProfile3" placeholder="Nombre">
+                                </div>
+                                <div class="">
+
+                                    <button id="boton" type="button" class="btn btn-warning"
+                                        aria-disabled="true">Continuar</button>
+                                </div>
+                            </fieldset>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src=" ../node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="module" src="./Js/entryOfProfiles.js"></script>
+    </body>
+
+</html>
