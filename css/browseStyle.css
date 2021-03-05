@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root{
+    --font-family-sans-serif: 'Ubuntu', -apple-system,
+    BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",
+    Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji",
+    "Segoe UI Symbol","Noto Color Emoji";
+    --white: #f6fafb;
+    --black: #212529;
+
+    /*Page Variables*/
+    --font-family-serif: Merriweather, serif;
+    --color-text: var(--yellow);
+    --font-family-text: var(--font-family-sans-serif);
+}
+.family-sans{
+    font-family: var(--font-family-sans-serif);
+
+}
+
+body{
+    background: var(--black);
+    font-family: var(--font-family-text);
+    color: var(--color-text);
+    font: weight 400; ;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+#imageProfileEntered {
+    margin: 5px;
+}
+
+/* ---- ---- ---- Principal film ---- ---- ---- */
+
+.film-principal{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0, .50) 0%, rgba(0,0,0,.50)100%), url(https://image.tmdb.org/t/p/w500/lWf1aiqDZqUbhrw8DnsfV8Ql7CP.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: flex-end;
+}
+
+.film-principal .container{
+    margin: 0 auto;
+    margin-bottom: 5.25em;
+}
+
+.film-principal .tittle{
+    font-weight: 500;
+    font-size: 2.12em;
+    margin-bottom: 0.4em;
+}
+
+.film-principal .description {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+
+.film-principal .boton {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 0.31em;
+   padding: 0.93em 1.75em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+
+.film-principal .boton:hover {
+    background: #fff;
+    color: #000;
+
+}
+
+.film-principal .boton i{
+	margin-right: 1.25em;
+}
+
+.container-tittle-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: inherit;    
+
+}
+
+h3{
+    margin-left: 0.75em;
+    color: #fff;
+    font-size: 30px;
+}
+
+.container-tittle-control button{
+    background: #fff;
+    cursor: pointer;
+    border: none;
+    margin-right: 1.25em;
+}
+
+
+/* ---- ---- ---- Cards ---- ---- ---- */
+
+
+/* img {
+    width: 220px;
+    height: 330px;
+}
+ */
+.card-group {
+    margin: 1.25em;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+
+/* ---- ---- ---- Modal ---- ---- ---- */
+.modal-body{
+    height: 25rem;
+    background-image: linear-gradient(to top,#181818,transparent 50%), url(https://image.tmdb.org/t/p/w500/i613J8Ao0vI0cVzIMvhrEQCqRH.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.boton-modal
+{
+    /* position: absolute; */
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.75em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+
+.boton-modal i{
+	margin-right: 1.25em;
+
+}
+/* ---- ---- ---- Principal container and arrows ---- ---- ---- */
+
+

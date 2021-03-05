@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root{
+   
+    /*Override Variables*/
+    --font-family-sans-serif: 'Ubuntu', -apple-system,
+    BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",
+    Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji",
+    "Segoe UI Symbol","Noto Color Emoji";
+
+    /*Page Variables*/
+    --font-family-serif: Merriweather, serif;
+    --color-text: var(--black);
+    --font-family-text: var(--font-family-sans-serif);
+}
+.family-sans{
+    font-family: var(--font-family-sans-serif);
+
+}
+
+body{
+    font-family: var(--font-family-text);
+    color: var(--color-text);
+    font-weight:  400; 
+}
+
+
+
+button {
+    height: 42px;
+    margin: 10px 0 25px;
+    font-size: 20px;
+}
